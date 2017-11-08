@@ -20,6 +20,18 @@ int main(){
 	z=x*y;
 	cout<<"Luas Persegi Panjang\t = "<<z<<" cm"
 	}
-	
+	else if(r=='S'||r=='s'){
+	cout<<"Menghitung Luas Segitiga"<<endl;
+	cout<<"========================"<<endl;
+	cout<<"\n";
+	cout<<"Masukkan Nilai Alas\t = "; cin>>x;
+	cout<<"Masukkan Nilai Tinggi\t = ";cin>>y;
+	z=0 5*x*y;
+	cout<<"Luas Segitiga\t\t= "<<z<< cm";"
+	}
+	else{
+		cout<<"Input tidak Valid!!!";
+	}
+	return 0;
 }
 
